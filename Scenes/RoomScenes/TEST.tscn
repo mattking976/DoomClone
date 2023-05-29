@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://brq1ibwbk2ulw"]
+
+[ext_resource type="PackedScene" uid="uid://bcu2tti7o1lln" path="res://Rooms/TEST_ROOM/TestRoom.glb" id="1_7w0k1"]
+
+[node name="TEST_SCENE" type="Node3D"]
+transform = Transform3D(1.5, 0, 0, 0, 1.5, 0, 0, 0, 1.5, 0, 0, 0)
+
+[node name="TestRoom" parent="." instance=ExtResource("1_7w0k1")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.10542, 0, 0.308024)

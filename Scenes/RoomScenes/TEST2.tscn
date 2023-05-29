@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cxpvm5r15q8ap"]
+
+[ext_resource type="PackedScene" uid="uid://digytn6arx1kh" path="res://Rooms/TEST_ROOM/TestRoom2.glb" id="1_7homg"]
+
+[node name="TEST2" type="Node3D"]
+
+[node name="TestRoom2" parent="." instance=ExtResource("1_7homg")]
